@@ -1,17 +1,12 @@
-background: rgb(252,176,69);
-background: linear-gradient(0deg, rgba(252,176,69,1) 0%,
-                            rgba(240,99,56,1) 53%, rgba(131,58,180,1) 100%);
-
-.contacts li a.twitter:hover {
+.contacts li a.twitter:hover{
   color: #1da1f2;
 }
 
 .contacts li a.instagram:hover {
-  background: rgb(252,176,69);
+  color: transparent;
   background: linear-gradient(0deg, rgba(252,176,69,1) 0%,
-                              rgba(240,99,56,1) 53%, rgba(131,58,180,1) 100%);
+  rgba(240,99,56,1) 53%, rgba(131,58,180,1) 100%);
   background-clip: text;
   -ms-background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
 }
